@@ -1,0 +1,52 @@
+header {
+    border: 1px solid blue;
+    
+}
+
+header li {
+    display: inline;
+    padding: 0px 3px;   
+}
+a.disabled {
+    color: purple;
+}
+
+.disabled {
+    color: grey;
+}
+
+.active {
+    color: yellow;
+}
+
+.red {
+    color: red;
+
+
+}
+
+.parent > h4 {
+    background-color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.blue ~ h4 {
+    background-color: blue; 
+}
+
+.grandparent > h4 {
+    border: 1px solid orange;
+    border-radius: 12px;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+input {
+    height: 25px;
+}
